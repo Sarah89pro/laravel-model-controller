@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    background-color: $header-bck;
+    padding-left: 55px;
+
+    .container {
+        justify-content: space-between;
+        line-height: 80px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    
+        li {
+            margin-left: 20px;
+            text-transform: uppercase;
+    
+            a {
+                color: $header-text;
+            }
+            a:hover {
+                color: $footer-bck;
+            }
+        }    
+    }
+}        

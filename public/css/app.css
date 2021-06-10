@@ -1,0 +1,85 @@
+/*MAIN STYLES*/
+/*Variables Style*/
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16161a;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  display: flex;
+  max-width: 1280px;
+  padding: 0 1.3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  background-color: #2cb67d;
+  padding-left: 55px;
+}
+header .container {
+  justify-content: space-between;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+}
+header ul li {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+header ul li a {
+  color: #010101;
+}
+header ul li a:hover {
+  color: #7f5af0;
+}
+
+.container {
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  /*All Movies*/
+}
+.container .movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.container .movies .movie {
+  width: calc(100% / 2);
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: #94a1b2;
+}
+.container .movies .movie h2,
+.container .movies .movie h3 {
+  margin-top: 10px;
+  color: #fff;
+}
+
+footer {
+  height: 80px;
+  background-color: #7f5af0;
+}
