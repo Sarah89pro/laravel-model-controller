@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+h1,
+p {
+  margin: 15px;
+}
+
 header {
   display: flex;
   background-color: #2cb67d;
@@ -75,7 +80,7 @@ header ul li a:hover {
 }
 .container .movies .movie h2,
 .container .movies .movie h3 {
-  margin-top: 10px;
+  margin: 10px;
   color: #fff;
 }
 
