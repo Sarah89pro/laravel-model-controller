@@ -5,6 +5,6 @@
 @section('content')
     <div class="container">
         <h1>Contattaci</h1>
-        <p>Se ti va!</p>
+        <p>A quanto pare anche i contatti non si trovano... I film però ci sono!</p>
     </div>
 @endsection

@@ -1,7 +1,7 @@
 header{
     display: flex;
     background-color: $header-bck;
-    padding-left: 55px;
+    
 
     .container {
         justify-content: space-between;
@@ -27,4 +27,8 @@ header{
             }
         }    
     }
-}        
+}
+
+.active {
+    color: $text;
+}

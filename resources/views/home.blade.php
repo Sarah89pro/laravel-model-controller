@@ -5,6 +5,6 @@
 @section('content')
     <div class="container">
         <h1>Homepage</h1>
-        <p>Sono la homepage, dovrei essere più interessante, ma chi mi ha fatto era preso dalla consegna. Sorry!</p>
+        <p>Sono una homepage in cerca di contenuti </p>
     </div>
 @endsection
